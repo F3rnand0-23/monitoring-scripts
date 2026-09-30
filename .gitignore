@@ -1,0 +1,6 @@
+# Ignore generated log files
+
+system_log.txt
+*.log
+*.tmp
+
