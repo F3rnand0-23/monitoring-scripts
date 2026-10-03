@@ -11,6 +11,4 @@ uptime >> "$LOG_FILE"
 
 echo "-----------------------------" >> "$LOG_FILE"
 
-
-
-
+ps aux --sort=-%mem | head -5 >> "$LOG_FILE"
